@@ -28,21 +28,20 @@ routes.add(method: .get, uri: "/123") {
     response.appendBody(string: "<html><title></title><body>Hello, world!<br>123!</body></html>")
         .completed()
 }
-routes.add(method: .get, uri: "/add") {
-    request, response in
-    let sqlite = try SQLite(dbPath)
-    }
-routes.add(method: .get, uri: "/show") {
-    request, response in
+routes.add(method: .get, uri: "/add") { (request, response) in
+    let sqlite = try? SQLite(dbPath)
+    print(sqlite)
+}
+routes.add(method: .get, uri: "/show") { (request, response) in
     response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json")
     var dictArray:[[String:Any]] = Array()
-    let sqlite = try SQLite(dbPath)
-    try? sqlite.forEachRow(statement: "select * from demo", handleRow: { (stmt, index) in
-            dictArray.append([
-                "uid": stmt.columnInt(position: 0),
-                "name": stmt.columnText(position: 1)
-                ])
-        })
+    let sqlite = try? SQLite(dbPath)
+    try? sqlite?.forEachRow(statement: "select * from demo", handleRow: { (stmt, index) in
+        dictArray.append([
+            "uid": stmt.columnInt(position: 0),
+            "name": stmt.columnText(position: 1)
+            ])
+    })
     let result = try? [
         "code": 200,
         "data": dictArray,
