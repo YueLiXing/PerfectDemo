@@ -11,12 +11,21 @@
         }
       },
       {
+        "package": "PerfectCSQLite3",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-sqlite3-support.git",
+        "state": {
+          "branch": null,
+          "revision": "fb806c0fd0fcbf27ababa9c03a00e32c2c46464c",
+          "version": "3.0.0"
+        }
+      },
+      {
         "package": "PerfectCZlib",
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CZlib-src.git",
         "state": {
           "branch": null,
-          "revision": "2002034d47e9d57a695fb33ad2e09f136868b406",
-          "version": "0.0.3"
+          "revision": "b63e46909aad937c6434766f8f8c6720d8f3bd05",
+          "version": "0.0.4"
         }
       },
       {
@@ -24,8 +33,8 @@
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Crypto.git",
         "state": {
           "branch": null,
-          "revision": "cf785dd119ba1692ebb6336d7388a1b169ae45d6",
-          "version": "3.0.4"
+          "revision": "a0565cd234faee0167f5f0540ad71516efc11a0b",
+          "version": "3.0.3"
         }
       },
       {
@@ -48,7 +57,7 @@
       },
       {
         "package": "PerfectLib",
-        "repositoryURL": "https://github.com/PerfectlySoft/Perfect.git",
+        "repositoryURL": "https://github.com/PerfectlySoft/PerfectLib.git",
         "state": {
           "branch": null,
           "revision": "0ab139ad6001ad4c3bb1b9714f11168a74af8e79",
@@ -62,6 +71,15 @@
           "branch": null,
           "revision": "5e137023e0373b3bdd46a5c80c3ec868fd1c383d",
           "version": "3.0.0"
+        }
+      },
+      {
+        "package": "PerfectSQLite",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-SQLite.git",
+        "state": {
+          "branch": null,
+          "revision": "89f5e4dc81a2523b42381ee651945a3b6aad17d1",
+          "version": "3.0.1"
         }
       },
       {
