@@ -2,7 +2,9 @@ import PerfectHTTP
 import PerfectHTTPServer
 import Foundation
 
-// 注册您自己的路由和请求／响应句柄
+var count = 0
+
+
 var routes = Routes()
 routes.add(method: .get, uri: "/") {
     request, response in
@@ -16,24 +18,21 @@ routes.add(method: .get, uri: "/123") {
     response.appendBody(string: "<html><title></title><body>Hello, world!<br>123!</body></html>")
         .completed()
 }
-//routes.add(method: .get, uri: "/json") { request, response in
-//    response.setHeader(.contentType, value: "application/json")
-//    if #available(OSX 10.13, *) {
-//        let data = try JSONSerialization.data(withJSONObject: [
-//            "code": 200,
-//            "data": "jsonString"
-//            ], options: JSONSerialization.WritingOptions.sortedKeys)
-//        response.appendBody(string: String(data: data, encoding: String.Encoding.utf8))
-//    } else {
-//        response.setBody(string: "版本太低")
-//    }
-//    //    response.appendBody(string: "<html><title></title><body>Hello, world!<br>123!</body></html>")
-//    //        .completed()
-//    response.completed()
-//    } as! RequestHandler // as! RequestHandler
-
-//let server = HTTPServer()
-
+routes.add(method: HTTPMethod.get, uri: "/json") { (request, response) in
+    response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json")
+    let result = try? [
+        "code": 200,
+        "data": [
+            "uid": 123,
+            "name": "继刚",
+            "count": count
+        ],
+        "path": request.path
+        ].jsonEncodedString()
+    response.setBody(string: result!)
+    count += 1
+    response.completed()
+}
 
 do {
     // 启动HTTP服务器
