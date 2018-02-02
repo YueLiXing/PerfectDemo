@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDA639E5202448D9007168E0 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA639E4202448D9007168E0 /* Tools.swift */; };
 		OBJ_375 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_381 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Package.swift */; };
 		OBJ_387 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Package.swift */; };
@@ -569,6 +570,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CDA639E4202448D9007168E0 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		"COpenSSL::COpenSSL::Product" /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* old_main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = old_main.swift; sourceTree = "<group>"; };
 		OBJ_100 /* PerfectCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectCrypto.swift; sourceTree = "<group>"; };
@@ -1544,6 +1546,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* main.swift */,
+				CDA639E4202448D9007168E0 /* Tools.swift */,
 				OBJ_10 /* old_main.swift */,
 			);
 			name = PerfectDemo;
@@ -1990,6 +1993,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_375 /* Package.swift in Sources */,
+				CDA639E5202448D9007168E0 /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

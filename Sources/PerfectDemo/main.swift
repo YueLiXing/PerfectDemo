@@ -30,12 +30,30 @@ routes.add(method: .get, uri: "/123") {
 }
 routes.add(method: .get, uri: "/add") { (request, response) in
     let sqlite = try? SQLite(dbPath)
+    defer {
+        sqlite?.close() // This makes sure we close our connection.
+    }
+    
+    let uid = request.param(name: "uid")
+    let name = request.param(name: "name")
+    var result = ""
+    if uid != nil && name != nil {
+        result = "保存成功"
+    } else {
+        result = "参数错误"
+    }
+    Tools.convertResult
+//    response.setBody(string: Tools.con)
     print(sqlite)
 }
 routes.add(method: .get, uri: "/show") { (request, response) in
     response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json")
     var dictArray:[[String:Any]] = Array()
     let sqlite = try? SQLite(dbPath)
+    defer {
+        sqlite?.close() // This makes sure we close our connection.
+    }
+    
     try? sqlite?.forEachRow(statement: "select * from demo", handleRow: { (stmt, index) in
         dictArray.append([
             "uid": stmt.columnInt(position: 0),
