@@ -6,7 +6,7 @@ import PerfectLib
 
 let dbPath = "./db/database"
 do {
-    let sqlite = try SQLite(dbPath)
+    let sqlite = try SQLite(dbPath, readOnly: false, busyTimeoutMillis: 10)
     defer {
         sqlite.close() // This makes sure we close our connection.
     }
@@ -39,12 +39,12 @@ routes.add(method: .get, uri: "/add") { (request, response) in
     var result = ""
     if uid != nil && name != nil {
         result = "保存成功"
+        response.setBody(string: Tools.convertResult(data: result))
     } else {
         result = "参数错误"
+        response.setBody(string: Tools.convertResult(code: 300, data: result))
     }
-    Tools.convertResult
-//    response.setBody(string: Tools.con)
-    print(sqlite)
+    response.completed()
 }
 routes.add(method: .get, uri: "/show") { (request, response) in
     response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json")
@@ -60,12 +60,7 @@ routes.add(method: .get, uri: "/show") { (request, response) in
             "name": stmt.columnText(position: 1)
             ])
     })
-    let result = try? [
-        "code": 200,
-        "data": dictArray,
-        "path": request.path
-        ].jsonEncodedString()
-    response.setBody(string: result!)
+    response.setBody(string:Tools.convertResult(data: dictArray))
     response.completed()
 }
 
