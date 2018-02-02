@@ -353,203 +353,203 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32E9161C20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91639202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectHTTPServer::PerfectHTTPServer";
 			remoteInfo = PerfectHTTPServer;
 		};
-		32E9161D20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9163A202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectCZlib::PerfectCZlib";
 			remoteInfo = PerfectCZlib;
 		};
-		32E9161E20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9163B202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP";
 			remoteInfo = PerfectHTTP;
 		};
-		32E9161F20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9163C202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectNet::PerfectNet";
 			remoteInfo = PerfectNet;
 		};
-		32E9162020243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9163D202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
 			remoteInfo = PerfectCrypto;
 		};
-		32E9162120243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9163E202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "COpenSSL::COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		32E9162220243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9163F202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectThread::PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		32E9162320243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91640202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectLib::PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		32E9162420243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91641202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "COpenSSL::COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		32E9162520243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91642202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectThread::PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		32E9162620243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91643202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectLib::PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		32E9162720243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91644202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
 			remoteInfo = PerfectCrypto;
 		};
-		32E9162820243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91645202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "COpenSSL::COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		32E9162920243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91646202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectThread::PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		32E9162A20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91647202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectLib::PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		32E9162B20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91648202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectNet::PerfectNet";
 			remoteInfo = PerfectNet;
 		};
-		32E9162C20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91649202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
 			remoteInfo = PerfectCrypto;
 		};
-		32E9162D20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9164A202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "COpenSSL::COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		32E9162E20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9164B202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectThread::PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		32E9162F20243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9164C202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectLib::PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		32E9163020243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9164D202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectHTTPServer::PerfectCHTTPParser";
 			remoteInfo = PerfectCHTTPParser;
 		};
-		32E9163120243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9164E202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectCZlib::PerfectCZlib";
 			remoteInfo = PerfectCZlib;
 		};
-		32E9163220243202000EC92D /* PBXContainerItemProxy */ = {
+		32E9164F202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP";
 			remoteInfo = PerfectHTTP;
 		};
-		32E9163320243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91650202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectNet::PerfectNet";
 			remoteInfo = PerfectNet;
 		};
-		32E9163420243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91651202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
 			remoteInfo = PerfectCrypto;
 		};
-		32E9163520243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91652202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "COpenSSL::COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		32E9163620243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91653202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectThread::PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		32E9163720243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91654202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PerfectLib::PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		32E9163820243202000EC92D /* PBXContainerItemProxy */ = {
+		32E91655202433E2000EC92D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -2364,147 +2364,147 @@
 		OBJ_436 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectHTTPServer::PerfectHTTPServer" /* PerfectHTTPServer */;
-			targetProxy = 32E9161C20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91639202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_438 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectCZlib::PerfectCZlib" /* PerfectCZlib */;
-			targetProxy = 32E9163120243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9164E202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_440 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectHTTP::PerfectHTTP" /* PerfectHTTP */;
-			targetProxy = 32E9163220243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9164F202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_442 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectNet::PerfectNet" /* PerfectNet */;
-			targetProxy = 32E9163320243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91650202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
-			targetProxy = 32E9163420243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91651202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_446 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "COpenSSL::COpenSSL" /* COpenSSL */;
-			targetProxy = 32E9163520243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91652202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_448 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectThread::PerfectThread" /* PerfectThread */;
-			targetProxy = 32E9163620243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91653202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_450 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectLib::PerfectLib" /* PerfectLib */;
-			targetProxy = 32E9163720243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91654202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_452 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectHTTPServer::PerfectCHTTPParser" /* PerfectCHTTPParser */;
-			targetProxy = 32E9163820243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91655202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_485 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectCZlib::PerfectCZlib" /* PerfectCZlib */;
-			targetProxy = 32E9161D20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9163A202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_486 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectHTTP::PerfectHTTP" /* PerfectHTTP */;
-			targetProxy = 32E9161E20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9163B202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_487 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectNet::PerfectNet" /* PerfectNet */;
-			targetProxy = 32E9162B20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91648202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_488 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
-			targetProxy = 32E9162C20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91649202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_489 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "COpenSSL::COpenSSL" /* COpenSSL */;
-			targetProxy = 32E9162D20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9164A202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_490 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectThread::PerfectThread" /* PerfectThread */;
-			targetProxy = 32E9162E20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9164B202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectLib::PerfectLib" /* PerfectLib */;
-			targetProxy = 32E9162F20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9164C202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_492 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectHTTPServer::PerfectCHTTPParser" /* PerfectCHTTPParser */;
-			targetProxy = 32E9163020243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9164D202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_533 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectNet::PerfectNet" /* PerfectNet */;
-			targetProxy = 32E9161F20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9163C202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
-			targetProxy = 32E9162720243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91644202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_535 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "COpenSSL::COpenSSL" /* COpenSSL */;
-			targetProxy = 32E9162820243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91645202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectThread::PerfectThread" /* PerfectThread */;
-			targetProxy = 32E9162920243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91646202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_537 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectLib::PerfectLib" /* PerfectLib */;
-			targetProxy = 32E9162A20243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91647202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_554 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
-			targetProxy = 32E9162020243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9163D202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_555 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "COpenSSL::COpenSSL" /* COpenSSL */;
-			targetProxy = 32E9162420243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91641202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_556 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectThread::PerfectThread" /* PerfectThread */;
-			targetProxy = 32E9162520243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91642202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_557 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectLib::PerfectLib" /* PerfectLib */;
-			targetProxy = 32E9162620243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91643202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_573 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "COpenSSL::COpenSSL" /* COpenSSL */;
-			targetProxy = 32E9162120243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9163E202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_574 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectThread::PerfectThread" /* PerfectThread */;
-			targetProxy = 32E9162220243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E9163F202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 		OBJ_575 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PerfectLib::PerfectLib" /* PerfectLib */;
-			targetProxy = 32E9162320243202000EC92D /* PBXContainerItemProxy */;
+			targetProxy = 32E91640202433E2000EC92D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
