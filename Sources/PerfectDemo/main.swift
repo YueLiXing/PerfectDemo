@@ -4,37 +4,23 @@ import Foundation
 import PerfectSQLite
 import PerfectLib
 
-let dbPath = "../database.sqlite"
-do {
-    let sqlite = try SQLite(dbPath, readOnly: false, busyTimeoutMillis: 10)
-    defer {
-        sqlite.close() // This makes sure we close our connection.
-    }
-    try sqlite.execute(statement: "create table if not exists demo (id integer primary key autoincrement,uid integer unique not null, name text not null)")
-} catch {
-    Log.debug(message: "\(error)")
-}
-
 var routes = Routes()
 routes.add(method: .get, uri: "/") {
     request, response in
     response.setHeader(.contentType, value: "text/html")
     response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!<br>Haha,Kid!</body></html>")
         .completed()
-}
+} 
 
 routes.add(method: .get, uri: "/add") { (request, response) in
-    let sqlite = try? SQLite(dbPath)
-    defer {
-        sqlite?.close() // This makes sure we close our connection.
-    }
+    let sqlite = DBConnect.connect
     
     let uid = request.param(name: "uid")
     let name = request.param(name: "name")
     var result = ""
     if uid != nil && name != nil {
         do {
-            try sqlite?.execute(statement: "insert into demo (uid,name) values(:1,:2)", doBindings: { (stmt) in
+            try sqlite.execute(statement: "insert into demo (uid,name) values(:1,:2)", doBindings: { (stmt) in
                 try? stmt.bind(position: 1, uid!)
                 try? stmt.bind(position: 2, name!)
             })
@@ -53,14 +39,11 @@ routes.add(method: .get, uri: "/add") { (request, response) in
 routes.add(method: .get, uri: "/show") { (request, response) in
     response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json")
     var dictArray:[[String:Any]] = Array()
-    let sqlite = try? SQLite(dbPath)
-    defer {
-        sqlite?.close() // This makes sure we close our connection.
-    }
+    let sqlite = DBConnect.connect
     let uid = request.param(name: "uid")
     if uid == nil {
-        try? sqlite?.forEachRow(statement: "select * from demo", handleRow: { (stmt, index) in
-            Log.debug(message: "\(stmt)");
+        try? sqlite.forEachRow(statement: "select * from demo", handleRow: { (stmt, index) in
+//            Log.debug(message: "\(stmt)");
             dictArray.append([
                 "uid": stmt.columnInt(position: 1),
                 "name": stmt.columnText(position: 2)
@@ -69,8 +52,8 @@ routes.add(method: .get, uri: "/show") { (request, response) in
         Log.debug(message: dictArray.description)
         response.setBody(string:Tools.convertResult(data: dictArray))
     } else {
-        try? sqlite?.forEachRow(statement: "select * from demo where uid = "+uid!, handleRow: { (stmt, index) in
-            Log.debug(message: "\(stmt)");
+        try? sqlite.forEachRow(statement: "select * from demo where uid = "+uid!, handleRow: { (stmt, index) in
+//            Log.debug(message: "\(stmt)");
             dictArray.append([
                 "uid": stmt.columnInt(position: 1),
                 "name": stmt.columnText(position: 2)
