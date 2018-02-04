@@ -12,29 +12,7 @@ import PerfectLib
 class DBConnect {
     static let dbPath = "../database.sqlite"
     static let connect:SQLite = try! SQLite(dbPath)
-//    {
-//        get {
-//            if self.connect == nil {
-//                do {
-//                    self.connect = try SQLite(dbPath, readOnly: false, busyTimeoutMillis: 10)
-//                } catch {
-//                    Log.error(message: "\(error)")
-//                }
-//            }
-//            return self.connect
-//        }
-//        set {
-//            self.connect = newValue
-//        }
-//    }
-//    private static var sqliteConnect:SQLite {
-//        set {
-//            self.sqliteConnect = newValue
-//        }
-//        get {
-//            return self.sqliteConnect
-//        }
-//    }
+    
 //    public static func connect () -> SQLite {
 //        static var sqlConnnect:SQLite? = nil;
 //        if sqlConnnect == nil {
@@ -53,5 +31,11 @@ class DBConnect {
 //            }
 //        }
 //        return sqliteConnect
+//    }
+//    public static func test() {
+//        static var temp:Int = 0
+//        if temp == 0 {
+//            temp += 1
+//        }
 //    }
 }

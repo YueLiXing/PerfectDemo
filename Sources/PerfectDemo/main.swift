@@ -37,6 +37,12 @@ routes.add(method: .get, uri: "/add") { (request, response) in
     response.completed()
 }
 routes.add(method: .get, uri: "/show") { (request, response) in
+//    Log.debug(message: "documentRoot: \(request.documentRoot)")
+//    Log.debug(message: "uri: \(request.uri)")
+//    Log.debug(message: "queryParams: \(request.queryParams)")
+//    for temp in request.headers {
+//        Log.debug(message: "name:\(temp.0) value:\(temp.1)")
+//    }
     response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json")
     var dictArray:[[String:Any]] = Array()
     let sqlite = DBConnect.connect
@@ -72,8 +78,8 @@ routes.add(method: .get, uri: "/show") { (request, response) in
 
 do {
     // 启动HTTP服务器
-    try HTTPServer.launch(
-        .server(name: "www.example.ca", port: 8181, routes: routes))
+    let baseServer = HTTPServer.Server(name: "www.test.com", port: 8181, routes: routes)
+    try HTTPServer.launch([baseServer])
 } catch {
     fatalError("\(error)") // fatal error launching one of the servers
 }
